@@ -50,4 +50,4 @@ def index():
 
 if __name__ == "__main__":
     # WARNING: Do not set host="0.0.0.0" on a public network without a password!
-    app.run(host="127.0.0.1", port=5000, debug=True)
+    app.run(debug=True)
